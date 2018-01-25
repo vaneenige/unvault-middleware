@@ -2,6 +2,10 @@
 
 As the name suggests this is a middleware based on [unvault](https://github.com/vaneenige/unvault), a minimal layer for node that allows results of time-consuming tasks to be stored. This middleware only needs a simple configuration to automatically setup routes, store expected responses and deliver results fast (see [benchmarks](https://github.com/vaneenige/unvault#benchmarks)).
 
+<a href="https://www.npmjs.org/package/unvault-middleware">
+  <img src="https://img.shields.io/npm/v/unvault-middleware.svg?style=flat" alt="npm">
+</a>
+
 ## Install
 
 ```
