@@ -1,0 +1,19 @@
+{
+  "name": "unvault-middleware",
+  "version": "0.1.0",
+  "description": "A middleware based on unvault to automatically setup routes, store expected responses and deliver results fast.",
+  "repository": "vaneenige/unvault-middleware",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "author": {
+    "name": "Colin van Eenige",
+    "email": "cvaneenige@gmail.com",
+    "url": "https://use-the-platform.com"
+  },
+  "dependencies": {
+    "unvault": "^0.2.0"
+  }
+}
