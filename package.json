@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "unvault": "^0.3.0"
+  },
+  "devDependencies": {
+    "polka": "^0.3.0"
   }
 }

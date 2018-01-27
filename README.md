@@ -20,6 +20,7 @@ const middleware = require("unvault-middleware");
 
 const route = {
   path: "/random",
+  headers: { "Content-Type": "application/json" },
   interval: 1000,
   update: () => {
     return JSON.stringify({
@@ -33,7 +34,7 @@ polka()
   .listen(3000);
 ```
 
-**Result:** The example above creates a node server (in this case with [Polka](https://github.com/lukeed/polka)) that uses the middleware. The added route (`http://localhost:3000/random`) will return a stored JSON response with a random value that is updated automatically every second.
+**Result:** The example above creates a node server (in this case with [Polka](https://github.com/lukeed/polka)) that uses the middleware. The added route (`http://localhost:3000/random`) will return a stored JSON (based on headers) response with a random value that is updated automatically every second.
 
 ## License
 
