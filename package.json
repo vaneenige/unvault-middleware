@@ -1,6 +1,6 @@
 {
   "name": "unvault-middleware",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A middleware based on unvault to automatically setup routes, store expected responses and deliver results fast.",
   "repository": "vaneenige/unvault-middleware",
   "main": "lib/index.js",
