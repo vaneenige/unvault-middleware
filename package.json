@@ -14,6 +14,6 @@
     "url": "https://use-the-platform.com"
   },
   "dependencies": {
-    "unvault": "^0.2.0"
+    "unvault": "^0.3.0"
   }
 }
